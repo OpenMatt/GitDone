@@ -1,5 +1,3 @@
-# GitDone
-GitHub Issues simplified
 ![gitdone 001](https://cloud.githubusercontent.com/assets/1007376/11010534/6afe34a6-84d7-11e5-99d7-652a04de3c80.png)
 ![gitdone 002](https://cloud.githubusercontent.com/assets/1007376/11010535/6b15fbea-84d7-11e5-95d6-f8352da05510.png)
 ![gitdone 003](https://cloud.githubusercontent.com/assets/1007376/11010536/6b22a37c-84d7-11e5-9bd7-a1d9bc412c91.png)
