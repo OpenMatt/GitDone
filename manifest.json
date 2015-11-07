@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "GitHub Simplify Test",
+  "version": "1.0",
+
+  "applications": {
+    "gecko": {
+      "id": "borderify@mozilla.org"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*/*/issues/*"],
+      "css": ["clean-up.css"]
+    }
+  ]
+
+}
