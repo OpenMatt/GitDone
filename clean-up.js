@@ -26,9 +26,17 @@ cleanInterface = function () {
   if (isRepoPage(url)) {
     $('.header, .pagehead-actions').hide();
     $('.sunken-menu-group li:not([aria-label=Issues])').hide();
+    $('.sunken-menu-group li[aria-label=Issues] a .full-word').html("Tasks");
     $('.overall-summary, .repository-lang-stats-graph').hide();
     $('.file-navigation, .commit-tease, .file-wrap').hide();
     $('.only-with-full-nav').hide();
+
+    $.ajax(document.URL + '/milestones', {
+      success: function (data) {
+        $('.repository-meta').after($('.issues-listing > .table-list', data)
+          .css('width', 'auto'));
+      }
+    });
   }
 }
 
