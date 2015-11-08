@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["*://github.com/*"],
-      "js": ["injector.js"]
+      "js": ["scripts/injector.js"]
     }
   ],
   "web_accessible_resources": [
@@ -20,7 +20,7 @@
     "toolbar/new_project.png",
     "toolbar/projects",
     "toolbar/notiications",
-    "clean-up.js"
+    "scripts/bootstrap.js"
   ]
 
 }
