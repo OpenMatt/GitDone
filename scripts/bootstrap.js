@@ -8,9 +8,9 @@ var Gitdone = Gitdone || {settings: {}, pages: {}};
 
 Gitdone.initializeToolbar = function (context) {
   console.log("initialize toolbar");
-  var toolbar = $('<div class="container"></div>');
-  toolbar.append('<span class="mega-octicon octicon-checklist"></span>');
-  $('.header', context).before(toolbar);
+  // var toolbar = $('<div class="container"></div>');
+  // toolbar.append('<span class="mega-octicon octicon-checklist"></span>');
+  // $('.header', context).before(toolbar);
 }
 
 Gitdone.pages.repoHome = {
