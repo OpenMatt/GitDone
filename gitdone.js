@@ -9,6 +9,7 @@ class Gitdone {
   modifyUI(url) {
     if (Gitdone.isIssueListPage(url)) {
       $('.header, .pagehead-actions, .sunken-menu').hide();
+      $('.subnav-links > :nth-child(2)').hide();
     }
 
     if (Gitdone.isIssuesPage(url)) {
