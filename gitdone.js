@@ -1,4 +1,6 @@
-export class Gitdone {
+'use strict';
+
+class Gitdone {
   constructor() {
 
   }
