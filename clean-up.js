@@ -31,10 +31,19 @@ cleanInterface = function () {
     $('.file-navigation, .commit-tease, .file-wrap').hide();
     $('.only-with-full-nav').hide();
 
+    // fetch milestone summary to show on repo page
     $.ajax(document.URL + '/milestones', {
       success: function (data) {
         $('.repository-meta').after($('.issues-listing > .table-list', data)
           .css('width', 'auto'));
+      }
+    });
+    // fetch labels to show in sidebar
+    $.ajax(document.URL + '/labels', {
+      success: function (data) {
+        $('.sunken-menu').after($('.labels-list > .table-list', data)
+          .css('width', 'auto'));
+        $('.labels-list-actions').hide();
       }
     });
   }
