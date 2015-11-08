@@ -12,9 +12,15 @@
 
   "content_scripts": [
     {
-      "matches": ["*://github.com/*/*/issues/*"],
-      "css": ["clean-up.css"]
+      "matches": ["*://github.com/*"],
+      "js": ["gitdone.js"]
     }
+  ],
+  "web_accessible_resources": [
+    "toolbar/new_task.png",
+    "toolbar/new_project.png",
+    "toolbar/projects",
+    "toolbar/notiications"
   ]
 
 }
