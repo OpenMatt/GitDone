@@ -4,7 +4,7 @@
   "description": "A browser extension for improving GitHub's issues interface",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/OpenMatt/GitDone#readme",
   "devDependencies": {
+    "chai": "^3.4.1",
     "gulp": "^3.9.0",
     "mocha": "^2.3.3"
   }
