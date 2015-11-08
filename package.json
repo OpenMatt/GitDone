@@ -1,0 +1,25 @@
+{
+  "name": "gitdone",
+  "version": "0.0.1",
+  "description": "A browser extension for improving GitHub's issues interface",
+  "main": "index.js",
+  "scripts": {
+    "test": " ./node_modules/.bin/mocha --compilers js:babel-core/register tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenMatt/GitDone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpenMatt/GitDone/issues"
+  },
+  "homepage": "https://github.com/OpenMatt/GitDone#readme",
+  "devDependencies": {
+    "babel-core": "^6.1.2",
+    "chai": "^3.4.1",
+    "gulp": "^3.9.0",
+    "mocha": "^2.3.3"
+  }
+}
