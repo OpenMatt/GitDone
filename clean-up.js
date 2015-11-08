@@ -13,6 +13,8 @@ cleanInterface = function () {
   url = document.URL;
   // Reset some clean-ups between pages
   $('.sunken-menu, .sunken-menu-group li').show();
+  // This is horrible - we have to remove the labels
+  $('.repository-sidebar .table-list').remove();
 
   // Apply clean-up for this page
   if (isIssueListPage(url)) {
