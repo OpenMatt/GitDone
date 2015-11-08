@@ -1,27 +1,26 @@
 {
-
   "manifest_version": 2,
-  "name": "GitHub Simplify Test",
+  "name": "GitDone",
   "version": "1.0",
 
   "applications": {
     "gecko": {
-      "id": "borderify@mozilla.org"
+      "id": "gitdone@mozilla.org"
     }
   },
 
   "content_scripts": [
     {
       "matches": ["*://github.com/*"],
-      "js": ["jquery.min.js", "gitdone.js"],
-      "run_at": "document_end"
+      "js": ["injector.js"]
     }
   ],
   "web_accessible_resources": [
     "toolbar/new_task.png",
     "toolbar/new_project.png",
     "toolbar/projects",
-    "toolbar/notiications"
+    "toolbar/notiications",
+    "clean-up.js"
   ]
 
 }

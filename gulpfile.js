@@ -3,7 +3,7 @@
 var gulp = require('gulp');
 var zip = require('gulp-zip');
 
-var files = ['manifest.json', 'gitdone.js', 'jquery.min.js'];
+var files = ['manifest.json', 'injector.js', 'clean-up.js'];
 var xpiName = 'dist/gitdone.xpi';
 
 gulp.task('default', function () {
