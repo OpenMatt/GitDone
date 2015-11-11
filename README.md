@@ -6,7 +6,7 @@
 
 ## Roadmap
 * 0.1 -- proof of concept (done!) 
-* 0.2 -- add toolbar buttons. begin testing with real-life project managers.
-* 0.3 -- add enhacements based on feedback. submit the extension to AMO so that anyone can more easily install it. 
+* [0.2](https://github.com/OpenMatt/GitDone/milestones/0.2%20release) -- add toolbar buttons. begin testing with real-life project managers.
+* [0.3](https://github.com/OpenMatt/GitDone/milestones/0.3%20release) -- add enhacements based on feedback. submit the extension to AMO so that anyone can more easily install it. 
 
 
