@@ -18,8 +18,8 @@
   "web_accessible_resources": [
     "toolbar/new_task.png",
     "toolbar/new_project.png",
-    "toolbar/projects",
-    "toolbar/notiications",
+    "toolbar/projects.png",
+    "toolbar/notifications.png",
     "scripts/bootstrap.js"
   ]
 
